@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { width: 330px; margin: 0; padding: 14px 16px 16px; background: #14161c; color: #eeeef4;
+         font: 14px system-ui, -apple-system, "Segoe UI", sans-serif; }
+  h1 { margin: 0 0 2px; font-size: 18px; color: #e86ea0; }
+  .sub { color: #9a9cae; font-size: 12px; margin-bottom: 12px; }
+  .status { background: #1f222c; border-radius: 10px; padding: 10px 12px; margin-bottom: 12px; line-height: 1.5; }
+  label { display: flex; justify-content: space-between; align-items: center; margin: 7px 0; }
+  input[type=number], select { width: 140px; padding: 4px 6px; background: #22242f; color: #eeeef4;
+         border: 1px solid #454a5e; border-radius: 6px; }
+  .row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 12px; }
+  button { flex: 1 1 45%; padding: 8px; border: 0; border-radius: 8px; background: #343848;
+           color: #eeeef4; cursor: pointer; font-size: 13px; }
+  button.main { background: #e86ea0; color: #1a1a22; font-weight: 600; }
+  h2 { font-size: 13px; margin: 14px 0 4px; color: #9a9cae; font-weight: 600; }
+  #log { max-height: 130px; overflow: auto; font-size: 12px; color: #c8cadb; line-height: 1.5; }
+  #log div { border-bottom: 1px solid #262a37; padding: 2px 0; }
+</style>
+</head>
+<body>
+  <h1>Feed Garden</h1>
+  <div class="sub">A stopping cue for Instagram's infinite scroll</div>
+
+  <div class="status" id="status">Open Instagram in Chrome to begin.</div>
+
+  <label>First cue after (min) <input type="number" id="cueMinutes" min="1" max="60"></label>
+  <label>Speed
+    <select id="speed">
+      <option value="1">Real time (30-min test)</option>
+      <option value="30">1 min per 2 seconds (slow demo)</option>
+      <option value="60">1 min per second (demo)</option>
+      <option value="300">5 min per second</option>
+    </select>
+  </label>
+  <label>Close tab when I leave <input type="checkbox" id="closeTab"></label>
+  <label>Sound <input type="checkbox" id="sound"></label>
+
+  <div class="row">
+    <button id="skip" class="main">Skip +5 min (demo)</button>
+    <button id="reset">Reset session</button>
+    <button id="download">Download log (CSV)</button>
+    <button id="clear">Clear log</button>
+  </div>
+
+  <h2>Recent events</h2>
+  <div id="log">No events yet.</div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

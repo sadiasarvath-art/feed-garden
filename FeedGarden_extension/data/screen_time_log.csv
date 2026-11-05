@@ -1,0 +1,23 @@
+Date_Time,App_Name,Duration_Min,Trigger_Type
+30-10-2026 09:00:00,Instagram,75.0,Habit_or_Break
+30-10-2026 10:30:00,WhatsApp,25.0,Notifications_or_Social_Interaction
+30-10-2026 11:15:00,Instagram,55.0,Habit_or_Break
+30-10-2026 12:15:00,Zomato,10.0,Task_Based
+30-10-2026 12:45:00,WhatsApp,20.0,Notifications_or_Social_Interaction
+30-10-2026 13:30:00,Instagram,60.0,Habit_or_Break
+30-10-2026 14:45:00,Zepto,7.0,Task_Based
+30-10-2026 15:15:00,Photos,6.0,Task_Based
+30-10-2026 15:45:00,Google Maps,3.0,Task_Based
+30-10-2026 16:00:00,Google,3.0,Task_Based
+30-10-2026 17:00:00,Instagram,50.0,Habit_or_Break
+30-10-2026 17:45:00,WhatsApp,20.0,Notifications_or_Social_Interaction
+30-10-2026 18:15:00,Pinterest,2.0,Interest_or_Habit
+30-10-2026 18:30:00,Safari,1.0,Task_Based
+30-10-2026 18:45:00,PhonePe,1.0,Task_Based
+30-10-2026 19:00:00,Lighthouse,1.0,Task_Based
+30-10-2026 20:15:00,WhatsApp,18.0,Notifications_or_Social_Interaction
+30-10-2026 20:45:00,Instagram,81.0,Habit_or_Break
+30-10-2026 22:15:00,Phone,0.88,Communication_Need
+30-10-2026 22:30:00,Locket,0.62,Social_Interaction
+30-10-2026 22:45:00,Swiggy,0.57,Task_Based
+30-10-2026 23:00:00,Snapchat,0.33,Social_Interaction
